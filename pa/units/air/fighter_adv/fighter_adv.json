@@ -64,7 +64,7 @@
 		"filename": "/pa/units/air/gunship/gunship_jets.pfx",
 		"bone": "bone_body",
 		"offset": [0, 0.5, 0],
-		"orientation": [0, 0, 0
+		"orientation": [0, 0, 0]
 	}],
 	"audio": {
 		"loops": {
