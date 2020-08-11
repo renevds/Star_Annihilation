@@ -1,6 +1,6 @@
  {
    "context": "client",
-   "identifier": "https://forums.planetaryannihilation.com/threads/star-annihilation.73496/",
+   "identifier": "com.pa.renevds.star-annihilation",
    "display_name": "Star Annihilation",
    "description": "The first release of a starwars pack, current unit: The Tie Fighter",
    "author": "renevds",
