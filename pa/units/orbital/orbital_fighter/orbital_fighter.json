@@ -1,7 +1,7 @@
 {
 	"base_spec": "/pa/units/orbital/base_orbital/base_orbital.json",
-	"display_name": "TIE/LN starfighter",
-	"description": "!LOC:TIE/lN space superiority starfighter - Fast moving orbital fighter for offense and defense.",
+	"display_name": "TIE fighter",
+	"description": "!LOC:TIE/ln - Fast moving orbital fighter for offense and defense.",
 	"build_metal_cost": 800,
 	"max_health": 250,
 	"gravwell_velocity_multiplier": 6.0,
@@ -51,7 +51,7 @@
 		"muzzle_bone": "bone_recoil01"
 	}],
 	"fx_offsets": [{
-		"type": "moving",
+		"type": "moving_forward",
 		"filename": "/pa/units/air/gunship/gunship_jets.pfx",
 		"bone": "bone_body",
 		"offset": [0, 0, 0],

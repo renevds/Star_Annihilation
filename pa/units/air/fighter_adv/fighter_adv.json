@@ -60,7 +60,7 @@
 		}
 	},
 	"fx_offsets": [{
-		"type": "moving",
+		"type": "moving_forward",
 		"filename": "/pa/units/air/gunship/gunship_jets.pfx",
 		"bone": "bone_body",
 		"offset": [0, 0.5, 0],
