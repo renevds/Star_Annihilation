@@ -6,7 +6,7 @@
 	"max_health": 300,
 	"system_velocity_multiplier": 15.0,
 	"gravwell_velocity_multiplier": 6.0,
-	"unit_types": ["UNITTYPE_Fighter", "UNITTYPE_Air", "UNITTYPE_Mobile", "UNITTYPE_Offense", "UNITTYPE_Advanced", "UNITTYPE_FactoryBuild"],
+	"unit_types": ["UNITTYPE_Fighter", "UNITTYPE_Air", "UNITTYPE_Mobile", "UNITTYPE_Offense", "UNITTYPE_Basic", "UNITTYPE_FactoryBuild"],
 	"guard_layer": "WL_Air",
 	"navigation": {
 		"type": "air",
@@ -17,7 +17,8 @@
 		"turn_speed": 270,
 		"aggressive_distance": 50.0,
 		"bank_factor": 10,
-		"vertical_speed": 50
+		"vertical_speed": 50,
+		"aggressive_behavior": "circle"
 	},
 	"physics": {
 		"radius": 6,
@@ -44,7 +45,8 @@
 	"tools": [{
 		"spec_id": "/pa/units/air/fighter_adv/fighter_adv_tool_weapon.json",
 		"aim_bone": "bone_root",
-		"muzzle_bone": ["socket_leftMuzzle", "socket_rightMuzzle"]
+		"projectiles_per_fire": 2,
+		"muzzle_bone": ["bone_barrel1", "bone_barrel2"]
 	}],
 	"events": {
 		"build_complete": {
@@ -59,13 +61,38 @@
 			"effect_scale": 0.85
 		}
 	},
-	"fx_offsets": [{
-		"type": "moving_forward",
-		"filename": "/pa/units/air/gunship/gunship_jets.pfx",
-		"bone": "bone_body",
-		"offset": [0, 0.5, 0],
-		"orientation": [0, 0, 0]
-	}],
+	"fx_offsets": [
+		{
+			"type": "moving_forward",
+			"filename": "/pa/units/air/fighter_adv/jets.pfx",
+			"bone": "bone_body",
+			"offset": [
+				1,
+				2.2,
+				0
+			],
+			"orientation": [
+				0,
+				0,
+				0
+			]
+		},
+		{
+			"type": "moving_forward",
+			"filename": "/pa/units/air/fighter_adv/jets.pfx",
+			"bone": "bone_body",
+			"offset": [
+				-1,
+				2.2,
+				0
+			],
+			"orientation": [
+				0,
+				0,
+				0
+			]
+		}
+	],
 	"audio": {
 		"loops": {
 			"move": {

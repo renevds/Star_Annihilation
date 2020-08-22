@@ -1,7 +1,7 @@
 {
 	"base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
 	"display_name": "S-1 FireHawke",
-	"description": "!LOC:S-1 FireHawke Heavy Repulsortank - Devastating damage with heavy armor. Vulnerable to flanking. Attacks land and sea targets.",
+	"description": "!LOC:S-1 FireHawke Heavy Repulsortank - Devastating damage with heavy armor. Vulnerable to flanking. Attacks land targets.",
 	"max_health": 1500,
 	"build_metal_cost": 800,
 	"attachable": {
@@ -19,7 +19,7 @@
 		"type": "land-small",
 		"acceleration": 100,
 		"brake": 100,
-		"move_speed": 10,
+		"move_speed": 14,
 		"turn_speed": 50
 	},
 	"physics": {
@@ -43,7 +43,7 @@
 	"tools": [{
 		"spec_id": "/pa/units/land/tank_laser_adv/tank_laser_adv_tool_weapon.json",
 		"aim_bone": "socket_aim",
-		"projectiles_per_fire": 2,
+		"projectiles_per_fire": 1,
 		"muzzle_bone": ["socket_muzzle","socket_muzzle"]
 	}],
 	"events": {
@@ -51,8 +51,7 @@
 			"audio_cue": "/SE/Build_Complete/veh"
 		},
 		"fired": {
-			"audio_cue": "/SE/Weapons/veh/tank_T2_leveler",
-			"effect_spec": "/pa/effects/specs/tank_muzzle_flash.pfx socket_leftMuzzle /pa/effects/specs/tank_muzzle_flash.pfx socket_rightMuzzle"
+			"audio_cue": "/SE/Weapons/structure/laser_defense_single_fire"
 		},
 		"died": {
 			"audio_cue": "/SE/Death/Veh",

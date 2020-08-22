@@ -20,7 +20,7 @@
 		"type": "hover",
 		"acceleration": 140,
 		"brake": 140,
-		"move_speed": 14,
+		"move_speed": 20,
 		"turn_speed": 90
 	},
 	"physics": {
@@ -54,8 +54,7 @@
 			"audio_cue": "/SE/Build_Complete/veh"
 		},
 		"fired": {
-			"audio_cue": "/SE/Weapons/veh/tank_hover_fire",
-			"effect_spec": "/pa/effects/specs/tank_muzzle_flash.pfx socket_muzzle"
+			"audio_cue": "/SE/Weapons/structure/laser_defense_single_fire"
 		},
 		"died": {
 			"audio_cue": "/SE/Death/Veh"

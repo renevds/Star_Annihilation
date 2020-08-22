@@ -1,0 +1,11 @@
+{
+    "papa": "/pa/terrain/moon/fbx/crashed_st.papa",
+    "no_features":true,
+    "pathable":false,
+    "biomeColor": [
+        0.9,
+        0.9,
+        0.9,
+        1
+    ]
+}

@@ -1,15 +1,16 @@
  {
    "context": "server",
    "identifier": "com.pa.renevds.star-annihilation-server",
-   "display_name": "SA SERVER",
-   "description": "A unit remodel starwars pack, current units replaced: avenger to TIE/ln, advanced fighter to TIE/sk x1, advanced bomber to TIE/sa, advanced tank to S-1 FireHawke, hovertank to 2-M Saber ,works in multiplayer",
+   "display_name": "Star Annihilation",
+   "description": "The Starwars overhaul mod",
    "author": "renevds",
    "version": "0.3",
    "build": "114803",
-   "date": "2020-08-09",
+   "date": "2020-08-22",
    "signature": "not yet implemented",
    "forum": "https://forums.planetaryannihilation.com/threads/star-annihilation.73496/",
    "priority": 100,
    "icon": "https://i.imgur.com/hXcaDh9.png",
-   "category": ["titans","units"]
+   "category": ["titans","units"],
+   "dependencies":["com.pa.renevds.star-annihilation"]
  }

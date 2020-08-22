@@ -45,18 +45,45 @@
 	"model": {
 		"filename": "/pa/units/orbital/orbital_fighter/TIE_fighter.papa"
 	},
-	"tools": [{
-		"spec_id": "/pa/units/orbital/orbital_fighter/orbital_fighter_tool_weapon.json",
-		"aim_bone": "bone_body",
-		"muzzle_bone": "bone_recoil01"
-	}],
-	"fx_offsets": [{
-		"type": "moving_forward",
-		"filename": "/pa/units/air/gunship/gunship_jets.pfx",
-		"bone": "bone_body",
-		"offset": [0, 0, 0],
-		"orientation": [0, 0, 0]
-	}],
+	"tools": [
+		{
+			"spec_id": "/pa/units/orbital/orbital_fighter/orbital_fighter_tool_weapon.json",
+			"aim_bone": "bone_body",
+			"muzzle_bone": "bone_recoil01"
+		}
+	],
+	"fx_offsets": [
+		{
+			"type": "moving_forward",
+			"filename": "/pa/units/air/fighter_adv/jets.pfx",
+			"bone": "bone_body",
+			"offset": [
+				1,
+				1.5,
+				0
+			],
+			"orientation": [
+				0,
+				0,
+				0
+			]
+		},
+		{
+			"type": "moving_forward",
+			"filename": "/pa/units/air/fighter_adv/jets.pfx",
+			"bone": "bone_body",
+			"offset": [
+				-1,
+				1.5,
+				0
+			],
+			"orientation": [
+				0,
+				0,
+				0
+			]
+		}
+	],
 	"events": {
 		"build_complete": {
 			"audio_cue": "/SE/Build_Complete/orbital"
