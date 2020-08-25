@@ -39,7 +39,7 @@ var Build = (function() {
         "/pa/units/land/energy_plant_adv/energy_plant_adv.json": ["utility", 2, {row: 0, column: 2}],
         "/pa/units/land/metal_extractor_adv/metal_extractor_adv.json": ["utility", 3, {row: 0, column: 3}],
         "/pa/units/land/radar/radar.json": ["utility", 4, {row: 1, column: 1}],
-		"/pa/units/land/radar_adv/radar_satellite_adv.json": ["utility", 5, {row: 1, column: 2}],
+		"/pa/units/land/radar_adv/radar_adv.json": ["utility", 5, {row: 1, column: 2}],
 
         //resources
         "/pa/units/land/energy_plant/energy_plant.json": ["utility", 4, {row: 1, column: 3}],
