@@ -13,5 +13,6 @@
    "icon": "https://i.imgur.com/hXcaDh9.png",
    "category": ["titans","units"],
    "dependencies":["com.pa.renevds.star-annihilation"],
-   "companions":["com.pa.renevds.star-annihilation"]
+   "companions":["com.pa.renevds.star-annihilation"],
+   "hidden": true
  }

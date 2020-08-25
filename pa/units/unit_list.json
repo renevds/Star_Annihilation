@@ -101,7 +101,7 @@
 		"/pa/units/commanders/tank_sadiga/tank_sadiga.json",
 		"/pa/units/land/control_module/control_module.json",
 		"/pa/units/land/at-st/at-st.json",
-		"/pa/units/orbital/radar_satellite/radar_satellite.json",
-		"/pa/units/orbital/radar_satellite_adv/radar_satellite_adv.json"
+		"/pa/units/land/radar/radar.json",
+		"/pa/units/land/radar_adv/radar_adv.json"
 	]
 }
