@@ -99,6 +99,9 @@
 		"/pa/units/commanders/tank_base/tank_base.json",
 		"/pa/units/commanders/tank_reaver/tank_reaver.json",
 		"/pa/units/commanders/tank_sadiga/tank_sadiga.json",
-		"/pa/units/land/control_module/control_module.json"
+		"/pa/units/land/control_module/control_module.json",
+		"/pa/units/land/at-st/at-st.json",
+		"/pa/units/orbital/radar_satellite/radar_satellite.json",
+		"/pa/units/orbital/radar_satellite_adv/radar_satellite_adv.json"
 	]
 }

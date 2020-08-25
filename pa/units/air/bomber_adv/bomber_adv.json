@@ -75,7 +75,7 @@
 		"offset": [1.7, 1, 0],
 		"orientation": [0, 0, 0]
 	}, {
-		"type": "moving",
+		"type": "moving_forward",
 		"filename": "/pa/units/air/fighter_adv/jets.pfx",
 		"bone": "bone_body",
 		"offset": [-1.7, 1, 0],
